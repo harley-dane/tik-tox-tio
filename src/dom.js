@@ -1,3 +1,7 @@
-const dom = {};
+export const updateStatus = (statusDisplay, message) => {
+    statusDisplay.textContent = message;
+};
 
-export default dom;
+export const updateBlock = (block, value) => {
+    block.textContent = value;
+};
